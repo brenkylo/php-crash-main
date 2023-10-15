@@ -1,0 +1,28 @@
+<script>
+  function letter(string){
+    let camelString = "";
+    for(let i = 0; i < string.length; i++){
+      const letterIn = string[i];
+      if (i % 2 === 0){
+        camelString += letterIn.toUpperCase();
+      }else{
+        camelString += letterIn.toLowerCase();
+      }
+    }
+    return camelString;
+  }
+console.log(letter('hello'));
+console.log(letter('NICEONEBOYS'));
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
